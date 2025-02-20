@@ -1,7 +1,6 @@
 const notebooks = [
     { name: "Notebook 1", file: "notebooks/notebook1.html" },
-    { name: "Notebook 2", file: "notebooks/notebook2.html" },
-    { name: "Notebook 3", file: "notebooks/notebook3.html" }
+    { name: "Notebook 2", file: "notebooks/notebook7.html" }
 ];
 
 let currentIndex = 0;
