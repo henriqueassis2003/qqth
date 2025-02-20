@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Notebooks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="notebook-title">Notebook 1</h1>
+        <div id="notebook-content">
+            <!-- O conteúdo do notebook será carregado aqui -->
+        </div>
+        <div class="navigation">
+            <button id="previous" onclick="loadNotebook(-1)">Anterior</button>
+            <button id="next" onclick="loadNotebook(1)">Próximo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
 
